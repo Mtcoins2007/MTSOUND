@@ -1,0 +1,64 @@
+body{
+    color:gray;
+    background: black;
+    margin: 0px;
+    font-family: "New Amsterdam", sans-serif;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px rgb(42,122,228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42,122,228);
+}
+
+.chamada{
+    background: rgb(184,156,213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+img{
+    height: 200px
+}
+
+.categoria-musica{
+    display: flex;
+    overflow-x: auto;
+    gap: 25px
+}
+
+.musicas{
+    pedding-left: 20px;
+    pedding-right: 20px;
+    margin-top: 50px;
+}
+
+.links-musicas img{
+    opacity: 1.0;
+    height: 200px;
+}
+
+.categotia-musica img:hover{
+    
+    opacity: 0.6;
+    border: 20px;
+}
+
+.categoria h2:hover{
+    color: rgb(42,122,228);
+}
